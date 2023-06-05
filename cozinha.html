@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema KDS</title>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+
+<style>
+    .box{
+        background-color: #eee;
+        border-radius: 20px;
+        width: 20%;
+        height: 20%;
+    }
+
+    .textMesa{
+        text-align: center;
+        background-color: rgb(66, 247, 66);
+        border-top-right-radius: 20px;
+    }
+
+    .desc{
+        height: -45px;
+
+    }
+
+    .but{
+       justify-items: flex-end;
+    }
+
+    
+
+    .container{
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-content: center;
+        gap: 15px;
+
+    }
+
+
+    .itemVerificado{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .hora{
+        display: flex;
+        justify-content: end;
+    }
+
+    .voltar{
+        width: 20px;
+        height: 20px;
+    }
+
+
+
+</style>
+<script>
+    function navegarPara(pagina) {
+      window.location.href = pagina;
+    }
+</script>
+
+
+<body class="container" >
+    <div class="box">
+        <h1 class="textMesa">MESA 1</h1>
+        <div class="item">
+            <div class="itemVerificado">
+                <h3>03 - Smash Burguer</h3>
+                <button class="btn">ok</button>
+            </div>
+            <p>Molho extra</p>
+            <p>Sem cebola</p> 
+        </div>
+        <div class="item">
+            <div class="itemVerificado">
+                <h3>01 - Hamburguer</h3>
+                <button class="btn">ok</button>
+            </div>
+        </div>
+        <div class="hora">17:17</div>
+    </div>
+
+    <div class="box">
+        <h1 class="textMesa">MESA 2</h1>
+        <div class="item">
+            <div class="itemVerificado">
+                <h3>04 - Smash Burguer Duplo</h3>
+                <button class="btn">ok</button>
+            </div>
+            <p>Molho extra</p>
+        </div>
+        <div class="item">
+            <div class="itemVerificado">
+                <h3>05 - Smash Burguer triplo</h3>
+                <button class="btn">ok</button>
+            </div>
+            <p>add cheedar</p>
+        </div>
+        <div class="hora">17:17</div>
+    </div>
+
+
+    <div class="box">
+        <h1 class="textMesa">MESA 3</h1>
+        <div class="item">
+            <div class="itemVerificado">
+                <h3>15 - Porção F B gg</h3>
+                <button class="btn">ok</button>
+            </div>
+        </div>
+        <div class="hora">17:17</div>
+    </div>
+
+
+    <div class="box">
+        <h1 class="textMesa">MESA 4</h1>
+        <div class="item">
+            <div class="itemVerificado">
+                <h3>07 - X EGG</h3>
+                <button class="btn">ok</button>
+            </div>
+           <p>sem milho</p>
+        </div>
+        <div class="item">
+            <div class="itemVerificado">
+                <h3>03 - Smash Burguer</h3>
+                <button class="btn">ok</button>
+            </div>
+            <p>Molho extra</p>
+        </div>
+        <div class="hora">17:18</div>
+    </div>
+
+
+
+    <div class="box">
+        <h1 class="textMesa">MESA 5</h1>
+        <div class="item">
+            <div class="itemVerificado">
+                <h3>04 - Smash Burguer duplo</h3>
+                <button class="btn">ok</button>
+            </div>
+        </div>
+        <div class="hora">17:18</div>
+    </div>
+
+
+    <div class="box">
+        <h1 class="textMesa">MESA 6</h1>
+        <div class="item">
+            <div class="itemVerificado">
+                <h3>05 - Smash Burguer Triplo</h3>
+                <button class="btn">ok</button>
+            </div>
+            <p>Sem cebola</p> 
+        </div>
+        <div class="hora">17:19</div>
+    </div>
+
+</body>
+</html>

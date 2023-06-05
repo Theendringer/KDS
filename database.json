@@ -1,0 +1,11 @@
+{"Mesa": "Mesa 1",
+"itens": [
+    {
+        "Item": "X-tudo",
+        "Obs": ["Sem cebola, Sem milho"]
+    },
+    {
+        "Item": "X-nada",
+        "Obs": ["Sem nada"]
+    }
+]}

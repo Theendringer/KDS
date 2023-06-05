@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+.obs{
+    display: flex;
+    flex-direction: row;
+}
+</style>
+<script>
+    function navegarPara(pagina) {
+      window.location.href = pagina;
+    }
+</script>
+
+
+
+<body>
+
+    <button onclick="navegarPara('index.html')">Voltar</button>
+
+    <h3>Garçom</h3>
+    <form action="">
+        <label for="">Mesa: </label>
+        <input type="text" placeholder="Digite o número da mesa">
+        <label for="">Item pedido: </label>
+        <input type="text" placeholder="Digite o item de pedido">
+        <div class="obs">
+            <label for="">Observações: </label>
+            <input type="text" placeholder="Observações">
+            <button>+</button>
+        </div>
+        
+        <button>Enviar</button>
+    </form>
+
+</body>
+</html>
